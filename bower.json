@@ -1,0 +1,19 @@
+{
+  "name": "Siap Desa",
+  "description": "Sistem Informasi Desa",
+  "authors": [
+    "Kurniawan Yudha Putrama <yudhaputrama.edu@gmail.com>"
+  ],
+  "homepage": "https://github.com/YudhaPutrama/siap-desa",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.3.0",
+    "mdl-stepper": "^1.1.6"
+  }
+}

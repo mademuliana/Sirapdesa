@@ -1,0 +1,66 @@
+body{
+    background-color: #fafafa;
+    transition: 1s;
+}
+@media only screen and (min-width: 841px){
+     .mdl-stepper--horizontal{
+          margin : 0 auto;
+          max-width: 90%;
+     }
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    font-size: 14px;
+}
+
+.is-active .mdl-step__title-text{
+    color: #00b0ff;
+}
+
+.mdl-cell{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.mdl-data-table th{
+    margin: 0;
+    padding-left: 36px !important;
+}
+
+.mdl-data-table td input{
+    background-color: transparent;
+    margin: 0;
+}
+
+.konten-finalisasi{
+    alignment: left;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.mdl-textfield{
+    padding: 20px 0px 20px 0;
+}
+
+input[type=date]{
+    text-align: right;
+}
+
+.tombol-edit-data-riwayat:hover{
+    cursor: pointer;
+}
+
+.mdl-cell input{
+    box-sizing: border-box;
+    height: 40px;
+    padding: 5px;
+    background-color: #f3f3f3;
+}
+
+.mdl-cell textarea{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f3f3f3;
+}

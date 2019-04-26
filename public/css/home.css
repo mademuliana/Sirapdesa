@@ -1,0 +1,53 @@
+#fullpage{
+  height:550px;
+  width: 100%;
+  background-image: url("/img/heading10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#heading{
+  height: 30%;
+  background-color: white;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#heading h1{
+  color: black;
+  margin: auto;
+  font-family: 'Baloo Thambi', cursive;
+}
+
+#heading span{
+  font-size: 50px;
+  color: black;
+  margin: auto;
+  font-family: 'Baloo Thambi', cursive;
+}
+
+.mdl-card__media{
+  margin: 10px auto;
+  width: 250px;
+  height: 250px;
+}
+.mdl-card__media img{
+  width: 250px;
+  height: 250px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 500px;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

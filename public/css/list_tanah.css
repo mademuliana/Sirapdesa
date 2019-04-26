@@ -1,0 +1,45 @@
+.table-container
+{
+    margin: 0 auto;
+}
+
+.table-search-box
+{
+    padding: 0px;
+    padding-top: 40px;
+}
+
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    font-size: 14px;
+}
+
+.mdl-cell{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mdl-cell input{
+    box-sizing: border-box;
+
+    height: 30px;
+    padding: 5px;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.status-conflict{
+    background-color: #f8bbd0 !important;
+}
+
+.status-conflict:hover{
+    background-color: #f48fb1 !important;
+}
+ h5{
+     margin: 1% 0;
+ }
+.mdl-card__title{
+    color: #fff;
+    background-color: #2196F3;
+}
